@@ -1,0 +1,159 @@
+*{
+    background-color: black;
+}
+body{
+    margin-top: 0px;
+    padding-top: 0%
+}
+
+.navbar{
+    border-radius: 30px;
+    background-color: white;
+}
+.glow-text:hover {
+    text-shadow: 0 0 10px , white
+}
+ ul{
+    border-radius: 30px;
+cursor: pointer;
+transition: text-shadow 0.3s;
+background-color: white;
+display: flex;
+padding-left: 0px;
+padding-right: 0px;
+justify-content: right;
+font-size: 20px;
+color: black;
+list-style-type: none;
+margin-right: 20px;
+height: 70px;
+margin-top: 10px;
+
+}
+a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+}
+
+
+li{
+    
+    background-color: white;
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
+.wel{
+    margin-top: -40px;
+  
+    margin-left: 815px;
+    margin-top: -362px;
+}
+.img{
+  
+    margin-left: 1006px;
+
+}
+
+
+
+.animated-text {
+    padding-left: 10px;
+    margin-left: -588px;
+    text-align: center;
+    margin-top: 197px;
+    color: white;
+    margin-bottom: -244px;
+}
+
+.text-animation {
+    animation: slide-in 2s ease-in-out infinite;
+    background-color: transparent;
+}
+
+@keyframes slide-in {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    50% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+}
+
+.card{
+    border-radius: 20px;
+    margin-top: -870px;
+    margin-left: 1380px;
+    margin-right: 10px;
+
+    
+}
+img{
+    border-radius: 30px;
+}
+
+.card1{
+    border: white;
+    color: white;
+    margin-left: -1519px;
+    margin-top: -200px;
+}
+.em  {
+    background-color: white;
+   margin-bottom: -10px;
+    
+}
+.em p {
+    background-color: white;
+    color: black;
+}
+.em h2{
+    color: black;
+        background-color: white;
+}
+p{
+    margin-top: -10px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.card2 {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 300px;
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+ 
+  .card p {
+    color: black;
+    margin: 0;
+  }
+
+
+
+
+
+
+
+
+
+

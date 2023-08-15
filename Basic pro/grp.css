@@ -1,0 +1,152 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.p1{
+    margin-left: 190px;
+    margin-top: 133px;
+}
+.navbar{
+    max-width: 10000px;
+    margin-top: -609px;
+    border-radius: 30px;
+    background-color: white;
+}
+ul{
+    max-width: 100000px;
+    border-radius: 30px;
+cursor: pointer;
+transition: text-shadow 0.3s;
+background-color: white;
+display: flex;
+padding-left: 0px;
+padding-right: 0px;
+justify-content: right;
+font-size: 20px;
+color: black;
+list-style-type: none;
+margin-right: 20px;
+height: 70px;
+margin-top: 10px;
+
+}
+.box{
+    color: white;
+    border-radius: 20px;
+    margin-left: 220px;
+}
+.con{
+    margin-top: 50px;
+    margin-left: 450px;
+}
+
+p{
+    margin-left: -200px;
+    font-size: large;
+}
+a{
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+}
+li{
+    
+    background-color: white;
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #87CEEB;
+  }
+  
+  .house {
+    width: 200px;
+    height: 200px;
+    background-color: #FFD700;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .roof {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 80px solid #d9534f;
+    position: absolute;
+    top: -80px;
+    left: 0;
+  }
+  
+  .door {
+    width: 40px;
+    height: 80px;
+    background-color: #8B4513;
+    position: absolute;
+    bottom: 0;
+    left: 80px;
+  }
+  
+  .window {
+    width: 40px;
+    height: 40px;
+    background-color: #87CEEB;
+    position: absolute;
+    opacity: 0.8;
+  }
+  
+  .window.left {
+    top: 50px;
+    left: 35px;
+  }
+  
+  .window.right {
+    top: 50px;
+    right: 35px;
+  }
+  
+  .chimney {
+    width: 20px;
+    height: 40px;
+    background-color: #8B4513;
+    position: absolute;
+    top: -50px;
+    right: 30px;
+    transform: rotate(5deg);
+  }
+  
+  .smoke {
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    position: absolute;
+    top: -60px;
+    right: 42px;
+    animation: smokeAnimation 3s ease-in-out infinite;
+  }
+  
+  @keyframes smokeAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(0) rotate(0deg);
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(-10px) rotate(10deg);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-20px) rotate(20deg);
+    }
+  }
+  
